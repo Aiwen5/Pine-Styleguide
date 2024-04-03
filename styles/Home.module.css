@@ -19,7 +19,7 @@
   margin: 0;
   display: flex;
   justify-content: center; 
-  gap: 25%;
+  gap: 20%;
 }
 
 .navbar nav ul li {
@@ -47,23 +47,32 @@ text-align: center;
 font-size: 25px;
 }
 
+.favicon{
+  width: 70px;
+  height:150px;
+}
+
 .imageRow {
 margin-top: 50px;
 display: flex;
 justify-content: center;
-gap: 1rem; 
+gap: 370px; 
+width: 500px;
 }
 
 .logoImage {
-  width: 500px; 
+  width: 200px; 
   height: auto; 
-  border: 1px solid #000000; 
+  margin-bottom: 20px;
+  flex-direction: row;
 }
 
 .descriptionRow{
   display: flex;
+  flex-direction: row;
   justify-content: center; 
-  gap: 1rem;
+  align-items: center;
+  gap: 3rem;
 }
 
 .descriptionRow p {
@@ -73,6 +82,7 @@ gap: 1rem;
   width: 25%; 
   max-width: 100%;
   gap: 1rem;
+  align-items: center;
 }
 
 .p2{
@@ -116,13 +126,64 @@ gap: 1rem;
 .descriptionRow2 p {
   color: #000;
   font-size: 25px;
-  text-align: center; 
+  text-align: center;  
   width: 25%; 
 }
 
 .p3{
 color: #000;
 font-size: 25px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+.BTr16 {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.BB16 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.SHsb26 {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.ITr15 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.ITb12 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.LHsb56 {
+  font-size: 56px;
+  font-weight: 600;
 }
 
 .p4{
