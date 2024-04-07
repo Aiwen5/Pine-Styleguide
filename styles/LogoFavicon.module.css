@@ -7,14 +7,20 @@
     min-height: 100vh;
     background-color: #a1d1c4;
   }
-  
   .navbar {
     background-color: #81bfb6;
     width: 100%;
-    height: 50px;
+    height: 80px;
     position: fixed;
     top: 0; 
     z-index: 1000; 
+  }
+  
+  .NavLogo {
+    width: 80px; 
+    height: auto; 
+    justify-content: center; 
+    display: inline-block;
   }
   
   .navbar nav ul {
@@ -23,7 +29,7 @@
     margin: 0;
     display: flex;
     justify-content: center; 
-    gap: 20%;
+    gap: 20px; /* Adjusted gap */
   }
   
   .navbar nav ul li {
@@ -32,7 +38,7 @@
   
   .navbar nav ul li a {
     color: #2B3F47;
-    padding: 10px;
+    padding: 10px 20px;
     display: inline-block; 
     font-weight: bold;
     font-size: 20px;
@@ -46,6 +52,7 @@
   .navbar nav ul li a:target {
     border-bottom: 2px solid #d4f9ec; 
   }
+  
 .p1 {
     color: #000;
     display: flex;
@@ -69,6 +76,18 @@
   }
   
   .logoImage {
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  .logoImage2 {
+    width: 200px; 
+    height: auto; 
+    margin-bottom: 20px;
+    flex-direction: row;
+  }
+  .logoImage3 {
     width: 200px; 
     height: auto; 
     margin-bottom: 20px;

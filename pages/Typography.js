@@ -6,7 +6,8 @@ export default function Typography() {
     <main className={styles.main}>
       <header className={styles.navbar}>
         <nav>
-          <ul>
+        <ul>
+          <li><a href='/'><img className={styles.NavLogo} src='PINE logo.png'></img></a></li>
             <li><a href="/LogoFavicon">Logo & Favicon</a></li>
             <li><a href="/ColorPalette">Colour Palette</a></li>
             <li><a href="/Typography">Typography</a></li>
