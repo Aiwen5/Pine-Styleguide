@@ -7,19 +7,20 @@
     min-height: 100vh;
     background-color: #a1d1c4;
   }
+  
   .navbar {
     background-color: #81bfb6;
     width: 100%;
     height: 80px;
     position: fixed;
-    top: 0; 
-    z-index: 1000; 
+    top: 0;
+    z-index: 1000;
   }
   
   .NavLogo {
-    width: 80px; 
-    height: auto; 
-    justify-content: center; 
+    width: 80px;
+    height: auto;
+    justify-content: center;
     display: inline-block;
   }
   
@@ -28,8 +29,8 @@
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; 
-    gap: 20px; 
+    justify-content: center;
+    gap: 20px;
     align-items: center;
   }
   
@@ -40,7 +41,7 @@
   .navbar nav ul li a {
     color: #2B3F47;
     padding: 10px 20px;
-    display: inline-block; 
+    display: inline-block;
     font-weight: bold;
     font-size: 20px;
   }
@@ -51,64 +52,57 @@
   
   .navbar nav ul li a:active,
   .navbar nav ul li a:target {
-    border-bottom: 2px solid #d4f9ec; 
+    border-bottom: 2px solid #d4f9ec;
   }
   
-.p1 {
+  .p1 {
     color: #000;
     display: flex;
-    flex-direction: column; 
-    align-items: center; 
-    text-align: center; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     font-size: 25px;
   }
   
-  .favicon {
-    width: 70px;
-    height: 150px;
+  .p1 p {
+    margin-top: 10px;
+    max-width: 800px;
+  }
+  
+  .p1 h3 {
+    margin-top: 50px;
+    text-decoration: underline 5px #2B3F47;
   }
   
   .imageRow {
     margin-top: 50px;
     display: flex;
-    justify-content: center;
-    gap: 370px; 
-    width: 500px;
+    justify-content: space-between;
+    width: 100%;
+    align-items: flex-start;
+    gap: 100px;
   }
   
-  .logoImage {
-    width: 200px; 
-    height: auto; 
+  .logoImage,
+  .logoImage2,
+  .logoImage3,
+  .logoImage4 {
+    width: 200px;
+    height: auto;
     margin-bottom: 20px;
-    flex-direction: row;
-  }
-  .logoImage2 {
-    width: 200px; 
-    height: auto; 
-    margin-bottom: 20px;
-    flex-direction: row;
-  }
-  .logoImage3 {
-    width: 200px; 
-    height: auto; 
-    margin-bottom: 20px;
-    flex-direction: row;
   }
   
   .descriptionRow {
     display: flex;
-    flex-direction: row;
-    justify-content: center; 
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 3rem;
   }
   
   .descriptionRow p {
     color: #000;
-    font-size: 25px;
-    text-align: center; 
-    width: 25%; 
-    max-width: 100%;
-    gap: 1rem;
-    align-items: center;
+    font-size: 26px;
+    text-align: center;
+    width: 200px;
   }
+  
