@@ -27,17 +27,17 @@ export default function Home() {
       <h4>Created by: Daniel Der & Evan Shatz</h4>
       <h2>About PINE</h2>
       <p>
-At PINE, we understand those nights when the thought of cooking or deciding on a dining destination feels like an insurmountable task, especially when hunger strikes and time is short. That's why we've crafted a solution to rescue you from the clutches of mundane meals and uninspired takeout choices.</p>
+      At PINE, we get it – those times when cooking or picking a place to eat feels like too much. That's why we've got your back with a solution.</p>
 
-<p>PINE is your go-to web app for those lazy yet hungry moments, providing a seamless experience to discover great dining options or whip up delicious recipes with ease, all while staying within your budget. No more settling for another round of fast food or resorting to a sad cup of instant noodles.</p>
+<p>PINE is the answer for those lazy, hungry moments. It's your one-stop web app to find great places to eat out or cook up tasty recipes, all while sticking to your budget. No more settling for fast food or sad instant noodles.</p>
 
-<p>Our platform simplifies the decision-making process by offering two distinct features tailored to your cravings:</p>
+<p>Here's how we make it easy:</p>
 
-<p>1. Dining Out: With PINE, exploring dining options has never been easier. Simply select your desired cuisine category – whether it's Asian delights with nuanced subcategories, hearty Western fare, quick-fix fast food, comforting noodle dishes, indulgent desserts, and beyond. PINE then curates a list of local and nearby eateries within your chosen category, ensuring you find the perfect spot to satisfy your cravings.</p>
+<p>1. Dining Out: Pick your craving – Asian, Western, fast food, noodles, desserts, and more. PINE shows you nearby spots that match your taste, so you can satisfy those hunger pangs in no time.</p>
 
-<p>2. Recipe Finder: For those moments when cooking at home seems like the better option, PINE has you covered. Our recipe finder feature lets you input the ingredients you have on hand or fill out a simple form detailing your preferences. Within moments, you'll discover a variety of simple yet mouthwatering recipes tailored to your available ingredients and time constraints, ranging from quick fixes to more elaborate dishes.</p>
+<p>2. Recipe Finder: When cooking at home sounds better, use our recipe finder. Tell us what you've got, and we'll suggest easy, delicious recipes tailored to your ingredients and time.</p>
 
-<p>At PINE, we're dedicated to enhancing your dining experiences and culinary adventures, one delicious recommendation at a time. Say goodbye to food dilemmas and hello to effortless enjoyment with PINE – because every meal should be a delightful experience, no matter how lazy or hungry you may feel.</p>
+<p>At PINE, we're all about making dining and cooking hassle-free and enjoyable. Say goodbye to food dilemmas and hello to effortless eating with PINE – because every meal should be a delight, no matter how lazy or hungry you feel.</p>
       </section>
       </main>
     </>
