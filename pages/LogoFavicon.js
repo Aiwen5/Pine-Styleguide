@@ -6,7 +6,8 @@ export default function LogoFavicon() {
     <main className={styles.main}>
       <header className={styles.navbar}>
         <nav>
-          <ul>
+        <ul>
+          <li><a href='/'><img className={styles.NavLogo} src='PINE logo.png'></img></a></li>
             <li><a href="/LogoFavicon">Logo & Favicon</a></li>
             <li><a href="/ColorPalette">Colour Palette</a></li>
             <li><a href="/Typography">Typography</a></li>
@@ -19,8 +20,8 @@ export default function LogoFavicon() {
           <p>Our logo represent a pine tree thus the use for the word "Pine" as the name suggests the logo is more of a pun while the chef hat aims to show that this is also a food app</p>
           <div className={styles.imageRow}>
             <img className={styles.logoImage} src="/PINE logo.png" alt="Logo1" />
-            <img className={styles.logoImage} src="/BlackWhite.svg" alt="Logo2" />
-            <img className={styles.logoImage} src="/Fancy.svg" alt="Logo3" />
+            <img className={styles.logoImage2} src="/BlackWhite.svg" alt="Logo2" />
+            <img className={styles.logoImage3} src="/Fancy.svg" alt="Logo3" />
           </div>
           <div className={styles.descriptionRow}>
           <p>Description: Choosing Logo1 hudhiahdiahidhaihdiah dihaihdiahdiahid hiahdiahidhaidhi</p>
