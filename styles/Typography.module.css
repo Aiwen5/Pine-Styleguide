@@ -30,7 +30,8 @@
     margin: 0;
     display: flex;
     justify-content: center; 
-    gap: 20px; /* Adjusted gap */
+    gap: 20px; 
+    align-items: center;
   }
   
   .navbar nav ul li {

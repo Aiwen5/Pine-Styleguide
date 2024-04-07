@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+  padding: 100px;
   min-height: 100vh;
   background-color: #a1d1c4;
 }
@@ -29,7 +29,8 @@
   margin: 0;
   display: flex;
   justify-content: center; 
-  gap: 20px; /* Adjusted gap */
+  gap: 20px;
+  align-items: center;
 }
 
 .navbar nav ul li {
@@ -51,4 +52,37 @@
 .navbar nav ul li a:active,
 .navbar nav ul li a:target {
   border-bottom: 2px solid #d4f9ec; 
+}
+.About {
+  text-align: center;
+  padding: 50px;
+  background-color: #C2EEE1; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.About h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #2B3F47;
+}
+
+.About h4 {
+  font-size: 18px;
+  color: #666666; 
+  margin-bottom: 20px;
+}
+
+.About h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #2B3F47;
+}
+
+.About p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #2B3F47; 
+  max-width: 800px; 
+  margin-bottom: 20px;
 }
