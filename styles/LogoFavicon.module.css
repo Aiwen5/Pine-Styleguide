@@ -77,16 +77,19 @@
   .imageRow {
     margin-top: 50px;
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: flex-start;
-    gap: 100px;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 100%; 
   }
   
   .logoImage,
   .logoImage2,
   .logoImage3,
-  .logoImage4 {
+  .logoImage4,
+  .logoImage5,
+  .logoImage6,
+  .logoImage7 {
     width: 200px;
     height: auto;
     margin-bottom: 20px;

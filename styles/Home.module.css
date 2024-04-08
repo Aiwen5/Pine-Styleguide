@@ -73,6 +73,13 @@
   margin-bottom: 20px;
 }
 
+.About h3 {
+  font-size: 18px;
+  color: #2B3F47; 
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
 .About h2 {
   font-size: 24px;
   margin-bottom: 15px;
@@ -85,4 +92,5 @@
   color: #2B3F47; 
   max-width: 800px; 
   margin-bottom: 20px;
+  text-align: justify;
 }
