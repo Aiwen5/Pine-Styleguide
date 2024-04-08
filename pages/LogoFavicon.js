@@ -53,7 +53,7 @@ export default function LogoFavicon() {
           <div className={styles.imageRow3}>
           </div>
           <div>
-            <img className={styles.logoImage7} src='/BlackAndWhiteWM.svg' alt='Logo7' />
+            <img className={styles.logoImage7} src='/Mono.svg' alt='Logo7' />
             <p>Monochromatic</p>
           </div>
           </div>
