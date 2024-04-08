@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Style Guide</title>
+        <title>Pine-A5Styleguide</title>
         <meta name="description" content="Style Guide for Brand" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
@@ -24,7 +24,7 @@ export default function Home() {
       </header>
       <section className={styles.About}>
       <h1> PINE StyleGuide </h1>
-      <h4>Created by: Daniel Der & Evan Shatz</h4>
+      <h4>Created by: Daniel Der & Evan Schatz</h4>
       <h2>About PINE</h2>
       <p>
       At PINE, we get it – those times when cooking or picking a place to eat feels like too much. That's why we've got your back with a solution.</p>
