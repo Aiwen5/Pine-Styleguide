@@ -36,6 +36,8 @@ export default function LogoFavicon() {
             <img className={styles.logoImage3} src='/FancyWM.svg' alt='Logo3' />
             <p>Fancy</p>
           </div>
+          </div>
+          <div className={styles.imageRow2}>
           <div>
             <img className={styles.logoImage4} src='/Reversed.svg' alt='Logo4' />
             <p>Reversed</p>
@@ -48,23 +50,25 @@ export default function LogoFavicon() {
             <img className={styles.logoImage6} src='/BlackAndWhiteWM.svg' alt='Logo6' />
             <p>Greyscale</p>
           </div>
+          <div className={styles.imageRow3}>
+          </div>
           <div>
-            <img className={styles.logoImage7} src='/BlackAndWhiteWM.svg' alt='Logo7' />
+            <img className={styles.logoImage7} src='/Mono.svg' alt='Logo7' />
             <p>Monochromatic</p>
           </div>
-        </div>
+          </div>
         <h3>Favicon</h3>
-        <div className={styles.imageRow}>
+        <div className={styles.imageRow4}>
           <div>
-            <img src='/favicon.ico' alt='Favicon16x16' />
+            <img className={styles.favicon1} src='/favicon.ico' alt='Favicon16x16' />
             <p>16x16</p>
           </div>
           <div>
-            <img src='/favicon.ico' alt='Favicon32x32' />
+            <img className={styles.favicon2} src='/favicon.ico' alt='Favicon32x32' />
             <p>32x32</p>
           </div>
           <div>
-            <img src='/favicon.ico' alt='Favicon48x48' />
+            <img className={styles.favicon3} src='/favicon.ico' alt='Favicon48x48' />
             <p>48x48</p>
           </div>
         </div>
