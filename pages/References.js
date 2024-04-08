@@ -16,7 +16,7 @@ export default function References() {
         </nav>
       </header>
     <section className={styles.p4} id='p4'>
-          <h1>References Page</h1>
+          <h1>References, Imagery, Graphics, etc.</h1>
         </section>
         </main>
   );
