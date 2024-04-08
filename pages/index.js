@@ -14,10 +14,11 @@ export default function Home() {
       <header className={styles.navbar}>
         <nav>
           <ul>
-          <li><a href='#'><img className={styles.NavLogo} src='PINE logo.png'></img></a></li>
+          <li><a href='#'><img className={styles.NavLogo} src='PineLogo.svg'></img></a></li>
             <li><a href="/LogoFavicon">Logo & Favicon</a></li>
             <li><a href="/ColorPalette">Colour Palette</a></li>
             <li><a href="/Typography">Typography</a></li>
+            <li><a href="/GraphicsImages">Graphics & Images</a></li>
             <li><a href="/References">References</a></li>
           </ul>
         </nav>
@@ -31,7 +32,7 @@ export default function Home() {
 
 <p>PINE is the answer for those lazy, hungry moments. It's your one-stop web app to find great places to eat out or cook up tasty recipes, all while sticking to your budget. No more settling for fast food or sad instant noodles.</p>
 
-<p>Here's how we make it easy:</p>
+<h3>Here's how we make it easy:</h3>
 
 <p>1. Dining Out: Pick your craving – Asian, Western, fast food, noodles, desserts, and more. PINE shows you nearby spots that match your taste, so you can satisfy those hunger pangs in no time.</p>
 

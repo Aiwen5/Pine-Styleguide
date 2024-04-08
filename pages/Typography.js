@@ -7,10 +7,11 @@ export default function Typography() {
       <header className={styles.navbar}>
         <nav>
         <ul>
-          <li><a href='/'><img className={styles.NavLogo} src='PINE logo.png'></img></a></li>
+          <li><a href='/'><img className={styles.NavLogo} src='PineLogo.svg'></img></a></li>
             <li><a href="/LogoFavicon">Logo & Favicon</a></li>
             <li><a href="/ColorPalette">Colour Palette</a></li>
             <li><a href="/Typography">Typography</a></li>
+            <li><a href="/GraphicsImages">Graphics & Images</a></li>
             <li><a href="/References">References</a></li>
           </ul>
         </nav>
@@ -22,8 +23,10 @@ export default function Typography() {
           <h5>Font Selection Rationale:</h5>
 
 <p>For our web application, we carefully selected fonts that align with our branding and enhance the overall design theme. We chose the Poppins font family for its modern and clean appearance, which complements the aesthetic of our application. Here's why we opted for these particular fonts:</p>
-
-    <p>Poppins Font Family: We chose Poppins as our primary font family due to its versatility, readability, and contemporary style. Its rounded corners and balanced proportions provide a friendly and approachable feel, which resonates well with our target audience. Moreover, Poppins offers various font weights and styles, allowing us to maintain consistency across different sections of our application while adding visual interest.</p>
+<h5>Poppins Font Family:</h5>
+    <p>We chose Poppins as our primary font family due to its versatility, readability, and contemporary style. Its rounded corners and balanced proportions provide a friendly and approachable feel, which resonates well with our target audience. Moreover, Poppins offers various font weights and styles, allowing us to maintain consistency across different sections of our application while adding visual interest.</p>
+    <h5>Version 2 Font Family:</h5>
+    <p>We chose Poppins as our primary font family due to its versatility, readability, and contemporary style. Its rounded corners and balanced proportions provide a friendly and approachable feel, which resonates well with our target audience. Moreover, Poppins offers various font weights and styles, allowing us to maintain consistency across different sections of our application while adding visual interest.</p>  
     </div>
   <div className={styles.row}>
     <div className={`${styles.column} ${styles.BTr16}`}>Body Text: Regular 16</div>

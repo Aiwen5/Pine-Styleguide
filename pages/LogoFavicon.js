@@ -8,12 +8,13 @@ export default function LogoFavicon() {
           <ul>
             <li>
               <a href='/'>
-                <img className={styles.NavLogo} src='PINE logo.png' alt='Logo' />
+                <img className={styles.NavLogo} src='PineLogo.svg' alt='Logo' />
               </a>
             </li>
             <li><a href='/LogoFavicon'>Logo & Favicon</a></li>
             <li><a href='/ColorPalette'>Colour Palette</a></li>
             <li><a href='/Typography'>Typography</a></li>
+            <li><a href="/GraphicsImages">Graphics & Images</a></li>
             <li><a href='/References'>References</a></li>
           </ul>
         </nav>
@@ -24,30 +25,48 @@ export default function LogoFavicon() {
         <h3>Logos</h3>
         <div className={styles.imageRow}>
           <div>
-            <img className={styles.logoImage} src='/PINE logo.png' alt='Logo1' />
+            <img className={styles.logoImage} src='/PINELogo.svg' alt='Logo1' />
             <p>Default</p>
           </div>
           <div>
-            <img className={styles.logoImage2} src='/PINE logo.png' alt='Logo2' />
-            <p>GreyScale</p>
+            <img className={styles.logoImage2} src='/BlackAndWhiteWM.svg' alt='Logo2' />
+            <p>Black & White</p>
           </div>
           <div>
-            <img className={styles.logoImage3} src='/PINE logo.png' alt='Logo3' />
-            <p>MonoChromatic</p>
+            <img className={styles.logoImage3} src='/FancyWM.svg' alt='Logo3' />
+            <p>Fancy</p>
           </div>
           <div>
-            <img className={styles.logoImage4} src='/PINE logo.png' alt='Logo4' />
+            <img className={styles.logoImage4} src='/Reversed.svg' alt='Logo4' />
             <p>Reversed</p>
+          </div>
+          <div>
+            <img className={styles.logoImage5} src='/BlackAndWhiteWM.svg' alt='Logo5' />
+            <p>Stacked</p>
+          </div>
+          <div>
+            <img className={styles.logoImage6} src='/BlackAndWhiteWM.svg' alt='Logo6' />
+            <p>Greyscale</p>
+          </div>
+          <div>
+            <img className={styles.logoImage7} src='/BlackAndWhiteWM.svg' alt='Logo7' />
+            <p>Monochromatic</p>
           </div>
         </div>
         <h3>Favicon</h3>
         <div className={styles.imageRow}>
-        <img src='/favicon.ico' alt='Favicon' />
-        <p>16x16</p>
-        <img src='/favicon.ico' alt='Favicon' />
-        <p>32x32</p>
-        <img src='/favicon.ico' alt='Favicon' />
-        <p>48x48</p>
+          <div>
+            <img src='/favicon.ico' alt='Favicon16x16' />
+            <p>16x16</p>
+          </div>
+          <div>
+            <img src='/favicon.ico' alt='Favicon32x32' />
+            <p>32x32</p>
+          </div>
+          <div>
+            <img src='/favicon.ico' alt='Favicon48x48' />
+            <p>48x48</p>
+          </div>
         </div>
         <p>We chose to simplify the logo by using the recognizable vector image of the pine tree and chef hat, symbolizing the app name PINE and the use by adding the chef hat.</p>
       </section>
