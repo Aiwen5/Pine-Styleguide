@@ -16,7 +16,7 @@ export default function Typography() {
         </nav>
       </header>
     <section className={styles.p3} id='p3'>
-          <h1>Typography, Imagery, Graphics, etc.</h1>
+          <h1>Typography</h1>
           <div className={styles.container}>
           <div className={styles.Rationale}>
           <h5>Font Selection Rationale:</h5>
