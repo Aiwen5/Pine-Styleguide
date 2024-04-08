@@ -82,7 +82,31 @@
     gap: 20px; 
     max-width: 100%; 
   }
-  
+  .imageRow2 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 100%; 
+  }
+  .imageRow3 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 100%; 
+  }
+
+  .imageRow4 {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    max-width: 100%; 
+  }
   .logoImage,
   .logoImage2,
   .logoImage3,
@@ -109,3 +133,15 @@
     width: 200px;
   }
   
+  .favicon1{
+    width: auto;
+    height: 16px;
+  }
+  .favicon2{
+    width: auto;
+    height: 32px;
+  }
+  .favicon3{
+    width: auto;
+    height: 48px;
+  }

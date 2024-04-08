@@ -8,7 +8,7 @@ export default function Home() {
         <title>Pine-A5Styleguide</title>
         <meta name="description" content="Style Guide for Brand" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link className= {styles.favicon1} rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
       <header className={styles.navbar}>
