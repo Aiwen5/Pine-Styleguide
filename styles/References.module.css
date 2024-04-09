@@ -6,6 +6,26 @@
     padding-top: 100px;
     min-height: 100vh;
     background-color: #a1d1c4;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+  }
+  .main p {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    align-items: center;
+    max-width: 800px;
+    margin-top: 10px;
+  }
+  .main a {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    align-items: center;
+    max-width: 800px;
+    color: #027317;
+    margin-top: 10px;
+  }
+  .main a:hover {
+    color: #d4f9ec;
   }
 
   .navbar {
@@ -15,6 +35,7 @@
     position: fixed;
     top: 0; 
     z-index: 1000; 
+    font-family: 'Poppins', sans-serif;
   }
   
   .NavLogo {

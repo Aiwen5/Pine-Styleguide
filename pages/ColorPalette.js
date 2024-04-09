@@ -59,10 +59,10 @@ export default function ColourPalette() {
 </p>
 </div>
 <div className={styles.imageRow2}>
-          <img className={styles.colorImage} src="/Contrast1.png" alt="Color1" />
-          <img className={styles.colorImage} src="/Contrast2.png" alt="Color2" />
-          <img className={styles.colorImage} src="/Contrast3.png" alt="Color3" />
-          <img className={styles.colorImage} src="/Contrast4.png" alt="Color4" />
+          <img className={styles.colorImage} src="/Contrast 1.png" alt="Contrast1" />
+          <img className={styles.colorImage} src="/Contrast 2.png" alt="Contrast2" />
+          <img className={styles.colorImage} src="/Contrast 3.png" alt="Contrast3" />
+          <img className={styles.colorImage} src="/Contrast 4.png" alt="Contrast4" />
           </div>
         </section>
         </main>

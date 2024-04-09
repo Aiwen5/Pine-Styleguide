@@ -73,6 +73,10 @@ export default function LogoFavicon() {
           </div>
         </div>
         <p>We chose to simplify the logo by using the recognizable vector image of the pine tree and chef hat, symbolizing the app name PINE and the use by adding the chef hat.</p>
+        <div className={styles.imageRow}>
+        <img className={styles.logoImage8} src='/LogoInsert1.png' alt='Logo8' />
+        <img className={styles.logoImage9} src='/LogoInsert2.png' alt='Logo9' />
+        </div>
       </section>
     </main>
   );

@@ -6,6 +6,7 @@
     padding-top: 100px;
     min-height: 100vh;
     background-color: #a1d1c4;
+    font-family: 'Poppins', sans-serif;
   }
 
   .navbar {
@@ -15,6 +16,7 @@
     position: fixed;
     top: 0; 
     z-index: 1000; 
+    font-family: 'Poppins', sans-serif;
   }
   
   .NavLogo {
