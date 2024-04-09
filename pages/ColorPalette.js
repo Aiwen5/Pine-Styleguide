@@ -58,6 +58,12 @@ export default function ColourPalette() {
 <p>Together, our color palette embodies our brand's values and aspirations, friendly to all users who wish to expand and explore their culinary discoveries and experiences.
 </p>
 </div>
+<div className={styles.imageRow2}>
+          <img className={styles.colorImage} src="/Contrast1.png" alt="Color1" />
+          <img className={styles.colorImage} src="/Contrast2.png" alt="Color2" />
+          <img className={styles.colorImage} src="/Contrast3.png" alt="Color3" />
+          <img className={styles.colorImage} src="/Contrast4.png" alt="Color4" />
+          </div>
         </section>
         </main>
   );

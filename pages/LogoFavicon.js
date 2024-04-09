@@ -43,19 +43,19 @@ export default function LogoFavicon() {
             <p>Reversed</p>
           </div>
           <div>
-            <img className={styles.logoImage5} src='/BlackAndWhiteWM.svg' alt='Logo5' />
-            <p>Stacked</p>
+            <img className={styles.logoImage7} src='/Mono.svg' alt='Logo7' />
+            <p>Monochromatic</p>
           </div>
           <div>
-            <img className={styles.logoImage6} src='/BlackAndWhiteWM.svg' alt='Logo6' />
+            <img className={styles.logoImage6} src='/GrayScale.svg' alt='Logo6' />
             <p>Greyscale</p>
+          </div>
           </div>
           <div className={styles.imageRow3}>
           </div>
           <div>
-            <img className={styles.logoImage7} src='/Mono.svg' alt='Logo7' />
-            <p>Monochromatic</p>
-          </div>
+            <img className={styles.logoImage5} src='/Stacked.svg' alt='Logo5' />
+            <p>Stacked</p>
           </div>
         <h3>Favicon</h3>
         <div className={styles.imageRow4}>
