@@ -47,7 +47,7 @@ export default function LogoFavicon() {
             <p>Monochromatic</p>
           </div>
           <div>
-            <img className={styles.logoImage6} src='/BlackAndWhiteWM.svg' alt='Logo6' />
+            <img className={styles.logoImage6} src='/GrayScale.svg' alt='Logo6' />
             <p>Greyscale</p>
           </div>
           </div>
