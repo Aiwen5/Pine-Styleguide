@@ -20,8 +20,8 @@ export default function LogoFavicon() {
         </nav>
       </header>
       <section className={styles.p1} id='p1'>
-        <h1>Custom Logo, Logo Variations and Description</h1>
-        <p>Our logo represents a pine tree, hence the use of the word "Pine." It's a playful pun, and the addition of the chef hat subtly hints at our culinary focus, making it clear that our app is all about food.</p>
+        <h1>Custom Logo, Variations, and Description</h1>
+        <p>Our logo represents a double entendre for the term "pining" which means to really want something, and the pine tree. The addition of the chef hat hints at our culinary focus, making it clear that our app is all about food.</p>
         <h3>Logos</h3>
         <div className={styles.imageRow}>
           <div>
@@ -72,7 +72,7 @@ export default function LogoFavicon() {
             <p>48x48</p>
           </div>
         </div>
-        <p>We chose to simplify the logo by using the recognizable vector image of the pine tree and chef hat, symbolizing the app name PINE and the use by adding the chef hat.</p>
+        <p>Some of the main uses of the logo.</p>
         <div className={styles.imageRow}>
         <img className={styles.logoImage8} src='/LogoInsert1.png' alt='Logo8' />
         <img className={styles.logoImage9} src='/LogoInsert2.png' alt='Logo9' />
