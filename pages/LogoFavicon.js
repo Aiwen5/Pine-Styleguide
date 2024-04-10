@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import styles from '@/styles/LogoFavicon.module.css';
 
 export default function LogoFavicon() {
@@ -25,7 +26,7 @@ export default function LogoFavicon() {
         <h3>Logos</h3>
         <div className={styles.imageRow}>
           <div>
-            <img className={styles.logoImage} src='/PINELogo.svg' alt='Logo1' />
+            <img className={styles.logoImage} src='/PineLogo.svg' alt='Logo1' />
             <p>Default</p>
           </div>
           <div>
