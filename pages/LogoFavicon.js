@@ -26,7 +26,7 @@ export default function LogoFavicon() {
         <h3>Logos</h3>
         <div className={styles.imageRow}>
           <div>
-            <img className={styles.logoImage} src='/PineLogo.svg' alt='Logo1' />
+            <img className={styles.logoImage} src='/PineLogo.png' alt='Logo1' />
             <p>Default</p>
           </div>
           <div>
