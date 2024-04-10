@@ -127,3 +127,15 @@
     margin-bottom: 20px;
     text-align: justify;
   }
+
+  .itemPage {
+    height: 500px;
+  }
+
+  .colorImage {
+    margin-bottom: 50px;
+  }
+
+  .explanations {
+    margin-bottom: 50px;
+  }

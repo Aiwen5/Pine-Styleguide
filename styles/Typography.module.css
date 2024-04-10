@@ -81,6 +81,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
     gap: 20px;
     margin-top: 30px;
     font-family: 'Poppins', sans-serif;
@@ -91,6 +92,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 30px;
+    margin-bottom: 70px;;
   }
   
   .column {
@@ -109,7 +111,7 @@
   }
   
   .SHsb26 {
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 600;
   }
   
@@ -151,4 +153,34 @@
     font-size: 24px;
     margin-bottom: 15px;
     color: #2B3F47;
+  }
+
+  .row2 {
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    flex-direction: column;
+  }
+
+  .row1 {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .fontTitleP {
+    font-family: "Poppins";
+    text-decoration: underline;
+  }
+
+  .fontTitleL {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: underline;
+  }
+
+  .fonts {
+    display: flex;
+    flex-direction: column;
   }
